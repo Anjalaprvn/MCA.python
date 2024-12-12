@@ -1,0 +1,10 @@
+a=input("Enter a Sentence : ")
+b=l.lower().split()
+n={}
+for i in b:
+    if i in n:
+        n[i]=n[i]+1
+    else:
+        n[i]=1
+for x,y in n.items():
+    print(x,y)
